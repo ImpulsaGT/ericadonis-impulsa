@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Eric Adonis | IMPULSA</title>
+  <title>Erica Domis | IMPULSA</title>
   <style>
     * {
       box-sizing: border-box;
@@ -162,7 +162,7 @@
     <img
       class="tarjeta"
       src="tarjeta-ericadonis.png"
-      alt="Tarjeta digital de Eric Adonis - IMPULSA"
+      alt="Tarjeta digital de Erica Domis - IMPULSA"
     />
     <a
       id="linkWhatsApp"
@@ -220,15 +220,15 @@
       CAMBIA SOLO ESTOS DATOS:
       - telefonoSinSigno: numero con codigo de pais 502, sin espacios ni guiones.
       - telefonoVisible: como quieres que aparezca o se guarde.
-      - correo: correo real de Eric Adonis.
-      - puesto: puesto real de Eric Adonis.
+      - correo: correo real de Erica Domis.
+      - puesto: puesto real de Erica Domis.
     */
     const contacto = {
-      nombre: "Eric Adonis",
-      apellido: "APELLIDO",
-      telefonoSinSigno: "502XXXXXXXX",
-      telefonoVisible: "+502 XXXXXXXX",
-      correo: "correo@impulsa.com.gt",
+      nombre: "Erica Domis",
+      apellido: "Domis",
+      telefonoSinSigno: "50239974468",
+      telefonoVisible: "+502 3997 4468",
+      correo: "edonis@impulsa.com.gt",
       puesto: "Asesor de Ventas",
       empresa: "IMPULSA",
       sitio: "https://impulsa.com.gt"
@@ -243,7 +243,7 @@
       const vcard = [
         "BEGIN:VCARD",
         "VERSION:3.0",
-        "N:" + contacto.apellido + ";Eric Adonis;;;",
+        "N:" + contacto.apellido + ";Erica;;;",
         "FN:" + contacto.nombre,
         "ORG:" + contacto.empresa,
         "TITLE:" + contacto.puesto,
@@ -259,7 +259,7 @@
 
       const enlace = document.createElement("a");
       enlace.href = URL.createObjectURL(archivo);
-      enlace.download = "Eric-Adonis.vcf";
+      enlace.download = "Erica-Domis.vcf";
       document.body.appendChild(enlace);
       enlace.click();
       document.body.removeChild(enlace);
